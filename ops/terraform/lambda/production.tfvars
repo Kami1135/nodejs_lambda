@@ -1,0 +1,10 @@
+account="1234523432423"
+filename="nodejs-lambda.zip"
+handler="handlerhandler"
+runtime="nodejs14.x"
+timeout="10"
+memory_size="512"
+subnet_ids=["subnet-1234", "subnet-s323", "subnet-2342"]
+security_group_ids=["sg-02d33378"]
+api_name = "production-nodejs-lambda"
+redis_url = "http://prod-test-nodejs-redis.chalhoub-engineering.com"

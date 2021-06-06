@@ -1,0 +1,10 @@
+account="1234523432423"
+filename="argus-unregisteration-lambda.zip"
+handler="main.handler"
+runtime="nodejs14.x"
+timeout="10"
+memory_size="512"
+subnet_ids=["subnet-1234", "subnet-s323", "subnet-2342"]
+security_group_ids=["sg-02d33378"]
+api_name = "develop-nodejs-lambda"
+redis_url = "http://develop-test-nodejs-redis.chalhoub-engineering.com"
